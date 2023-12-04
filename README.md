@@ -1,9 +1,11 @@
 # Pratikum Algoritma-Pemograman
 Bagian ini berfungsi untuk menjelaskan part dari jobsheets Algoritma Pemograman yang telah diberikan oleh dosen pengampu. Penjelasan terdapat pada link tertera dibawah.
 
-Dosen : Randi Proska Sandra, M.Sc<br>
-Seksi kelas : INF1.62.1008<br>
-Mahasiswa : Bunga Aprillia (23343030)
+🧑‍🏫Dosen       : Randi Proska Sandra, M.Sc<br>
+⏱Seksi kelas : INF1.62.1008<br>
+🧕🏻Mahasiswa   : Bunga Aprillia<br>
+🧮Nim         : 23343030<br>
+📌Prodi       : Informatika<br>
 
 # Jobsheets #
 [Jobsheet 1 - Pengantar Algoritma dan Pemrograman](https://github.com/bngaa/PRATIKUM-ALGORITMA-PEMROGRAMAN/tree/main/Jobsheet%201%20-%20%20Algoritma%2C%20Pemrograman%20%20IDE)<br>
