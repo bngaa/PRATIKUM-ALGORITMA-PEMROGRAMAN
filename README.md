@@ -29,7 +29,7 @@ C adalah sebuah bahasa pemrograman general-purpose dan imperative yang mendukung
 IDE dalah software atau perangkat lunak yang digunakan oleh programmer untuk membuat sebuah program komputer atau sebagai tempat pengembangan aplikasi. IDE memiliki banyak fitur yang mendukung proses pemrograman. Contohnya adalah DevC++, Microsoft Visual Studio, CodeBlocks, NetBeans, Eclips, dll.
 
 **Penjelasan source code Jobsheet 2**
-1. Soal Nomor 1<br>
+**1. Soal Nomor 1<br>**
 -	#include <stdio.h>
 Baris ini mengimpor pustaka standar input-output (stdio.h), yang diperlukan untuk menggunakan fungsi-fungsi seperti printf dan scanf.
 
@@ -55,8 +55,8 @@ Baris ini menggunakan fungsi printf lagi untuk menampilkan pesan selamat datang,
 }
 Baris ini menandakan akhir dari fungsi main. Pernyataan return 0; mengindikasikan bahwa program telah berakhir dengan sukses kepada sistem operasi.
 
-2. Soal Nomor 2
 
+**2. Soal Nomor 2**
 -	#include <stdio.h>: 
   Mengimpor pustaka standar input-output (stdio.h) yang dibutuhkan untuk menggunakan fungsi-fungsi seperti printf dan scanf.
 
@@ -79,9 +79,9 @@ Komentar yang menjelaskan bahwa nilai akhir dihitung dengan bobot tertentu untuk
 -	Menampilkan nilai akhir beserta informasi mahasiswa menggunakan printf.
 
 -	return 0;: Menandakan bahwa program telah berakhir dengan sukses.
+  
 
-3. Soal Nomor 3
-
+**3. Soal Nomor 3**
 -	#include <stdio.h> :
 Mengimpor pustaka standar input-output (stdio.h), yang dibutuhkan untuk menggunakan fungsi printf untuk menampilkan hasil.
 
@@ -99,8 +99,8 @@ Menampilkan hasil luas segitiga dengan menggunakan fungsi printf. Format specifi
 -	return 0;: 
 Menandakan bahwa program telah berakhir dengan sukses.
 
-4. Soal Nomor 4
- 
+
+**4. Soal Nomor 4**
 -	#include <stdio.h> : Mengimpor pustaka standar input-output (stdio.h), yang dibutuhkan untuk menggunakan fungsi printf untuk menampilkan hasil.
 
 -	int main() : Fungsi utama program C dimulai di sini.
