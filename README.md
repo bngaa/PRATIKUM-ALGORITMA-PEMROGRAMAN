@@ -21,7 +21,7 @@ Bagian ini berfungsi untuk menjelaskan part dari jobsheets Algoritma Pemograman 
 [Jobsheet 11 - File Handling in C](https://github.com/bngaa/PRATIKUM-ALGORITMA-PEMROGRAMAN/tree/main/Jobsheet%2011%20-%20FIle%20Handling%20in%20C)<br>
 
 # Penjelasan Source Code #
-**Penjelasan Jobsheet 1**
+**Penjelasan Jobsheet 1**<br>
 Algoritma adalah urutan langkah-langkah yang disusun secara sistematis dan logis. Pemrograman adalah penggunaaan satu atau lebih algoritme yang saling berhubungan dengan menggunakan suatu bahasa pemrograman tertentu sehingga menjadi suatu program komputer. Bahasa pemrograman merupakan kumpulan aturan sintaks dan semantik yang dipakai untuk mendefinisikan program komputer. Pada pembahasan kali ini akan mendalami mengenai bahasa C.
 
 C adalah sebuah bahasa pemrograman general-purpose dan imperative yang mendukung pemrograman terstruktur dan rekursif. Seperti teknologi yang terus berkembang, begitu juga dengan bahasa C. Terdapat berbagai versi dari bahasa ini yaitu ANSI C dan ISO C, C99, C11, dan C18.
@@ -58,12 +58,12 @@ Baris ini menandakan akhir dari fungsi main. Pernyataan return 0; mengindikasika
 2. Soal Nomor 2
 
 -	#include <stdio.h>: 
-	Mengimpor pustaka standar input-output (stdio.h) yang dibutuhkan untuk menggunakan fungsi-fungsi seperti printf dan scanf.
+  Mengimpor pustaka standar input-output (stdio.h) yang dibutuhkan untuk menggunakan fungsi-fungsi seperti printf dan scanf.
 
-	char nama[100], program_studi[100], fakultas[100];: 
+- char nama[100], program_studi[100], fakultas[100];: 
 Mendeklarasikan variabel berupa array karakter untuk menyimpan nama, program studi, dan fakultas dengan kapasitas masing-masing 100 karakter.
 
-	char nim[20];: 
+-	char nim[20];: 
 Mendeklarasikan variabel untuk menyimpan NIM dengan kapasitas 20 karakter.
 
 -	float nilai_praktikum, uts, uas, nilai_akhir;: 
