@@ -82,6 +82,7 @@ Menampilkan output tanpa format.
 Selalu membuat baris baru.
 Contoh: puts("Hello World!");.
 
+**c. Fungsi pada input C**<br>
 - Fungsi scanf():
 Mengambil input dari keyboard.
 Format specifier digunakan untuk tipe data input.
