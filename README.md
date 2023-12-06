@@ -17,7 +17,7 @@ Memiliki awal dan akhir.
 Pemrograman adalah tindakan atau aktivitas penulisan, pengujian, perbaikan, dan pemeliharaan kode komputer.
 Pemrograman melibatkan algoritma dan bahasa pemrograman. Pemrograman adalah seni menggunakan algoritma dengan menggunakan bahasa pemrograman tertentu.
 
-**c. Perbedaan Coding dan Programming**<br>
+**C. Perbedaan Coding dan Programming**<br>
 Coding: Menulis kode sesuai dengan aturan syntax bahasa pemrograman.<br>
 Programming: Melibatkan coding, analisis, konsep, implementasi algoritma, dan pemecahan masalah.
 
@@ -82,7 +82,7 @@ Menampilkan output tanpa format.
 Selalu membuat baris baru.
 Contoh: puts("Hello World!");.
 
-**c. Fungsi pada input C**<br>
+**C. Fungsi pada input C**<br>
 - Fungsi scanf():
 Mengambil input dari keyboard.
 Format specifier digunakan untuk tipe data input.
