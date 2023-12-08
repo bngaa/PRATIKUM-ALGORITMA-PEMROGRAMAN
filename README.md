@@ -269,7 +269,7 @@ for (int counter = 10; counter > 0; counter--) {
     printf("%d ", counter);
 }
 
-- Perulangan While:
+- Perulangan While :
 Digunakan untuk perulangan yang jumlah perulangannya tidak diketahui sebelumnya.<br>
 Contoh: Perulangan untuk input ulang dengan kondisi tertentu.
 
@@ -295,9 +295,122 @@ for (int i = 1; i <= 5; i++) {
 }<br> <br>
 
 [Jobsheet 7 - Array](https://github.com/bngaa/PRATIKUM-ALGORITMA-PEMROGRAMAN/tree/main/Jobsheet%207%20-%20Array)<br>
+**A. Array**
+- Pengertian Array : Array adalah struktur data yang digunakan untuk menyimpan sejumlah data dalam satu tempat, biasa disebut juga dengan istilah larik. Setiap elemen dalam array memiliki indeks, dimulai dari 0, yang mempermudah pengaksesan dan pengubahan data.
+- Cara Membuat Variabel Array : Mirip dengan membuat variabel biasa, namun perlu menentukan panjang array menggunakan kurung siku [].
+- Cara Mengakses Data Array : Setiap elemen dalam array dapat diakses melalui indeksnya. Contoh: Jika array huruf memiliki indeks 0, 1, 2, maka untuk mengakses elemen ke-2, gunakan huruf[2].
+- Merubah Data pada Array : Elemen dalam array dapat diubah dengan mengaksesnya melalui indeks dan mengganti nilainya. Contoh: huruf[2] = 'z'.
+- Menggunakan Perulangan dengan Array : Perulangan dapat digunakan untuk mengakses dan memanipulasi seluruh elemen array tanpa harus menuliskan kode berulang. Contoh: Penggunaan perulangan for untuk mencetak semua nilai array.
+- Mengambil Panjang Array : Fungsi sizeof() dapat digunakan untuk mengambil panjang atau ukuran array. Contoh: int panjang = sizeof(arr) / sizeof(*arr).
+
+**B. Array Multidimensi**
+- Pengertian : Array multidimensi adalah array yang memiliki dua dimensi atau lebih. Digunakan, misalnya, untuk merepresentasikan matriks.
+- Cara Mengambil Data dari Array Dua Dimensi : Setiap elemen dalam array dua dimensi dapat diakses menggunakan dua indeks, misalnya, array[i][j].
+- Contoh Program Array Dua Dimensi : Penggunaan array dua dimensi untuk merepresentasikan matriks.
+
+**C. String**
+- Pengertian String : String adalah kumpulan karakter yang membentuk teks.
+- Deklarasi String: char namaVariabel[ukuran].
+- Library String.h :
+  * strcpy() : Mengkopi string dari satu variabel ke variabel lain.
+  * strcat() : Menambahkan string dari belakang.
+  * strlen() : Menghitung panjang string.
+  * strcmp() : Membandingkan string dengan string lainnya. <br><br>
+  
 [Jobsheet 8 - Fungsi dan Prosedur](https://github.com/bngaa/PRATIKUM-ALGORITMA-PEMROGRAMAN/tree/main/Jobsheet%208%20-%20Fungsi%20%20Prosedur)<br>
+**A. Pengertian Fungsi :**
+Fungsi adalah sub-program yang dapat digunakan kembali dalam program, baik di dalam program itu sendiri maupun di program lain. Contoh umumnya adalah fungsi main(). Fungsi dapat mengembalikan nilai, dan jika tidak mengembalikan nilai, tipe data void digunakan.
+
+**B. Pembuatan Fungsi :**
+Fungsi pada bahasa pemrograman C dapat dibuat dengan menentukan tipe data untuk nilai yang akan dikembalikan. Contoh penggunaannya dapat dilihat pada fungsi say_hello() dalam program C.
+
+**C. Fungsi dengan Parameter :**
+Parameter adalah variabel yang menyimpan nilai untuk diproses di dalam fungsi. Parameter akan menyimpan nilai yang diinputkan ke dalam fungsi.
+
+**D. Fungsi yang Mengembalikan Nilai :**
+Fungsi dapat mengembalikan nilai dengan menggunakan kata kunci return. 
+
+**E. Fungsi Rekursif:**
+Fungsi rekursif adalah fungsi yang memanggil dirinya sendiri.
+
+**F. Variabel Lokal & Variabel Global :**
+Variabel lokal hanya dapat diakses di dalam fungsi tersebut, sementara variabel global dapat diakses dari semua fungsi.
+
+**G. Pass by Value & Pass by Reference :**
+- Pass by Value : Memberikan nilai langsung kepada parameter.
+- Pass by Reference : Memberikan alamat memori.<br><br>
+
 [Jobsheet 9 - Pointer](https://github.com/bngaa/PRATIKUM-ALGORITMA-PEMROGRAMAN/tree/main/Jobsheet%209%20-%20Pointer)<br>
+**A. Pengertian Pointer**
+- Alamat Memori : Setiap variabel dalam program memiliki alamat memori yang menunjukkan lokasi penyimpanan data di RAM.
+- Pointer : Variabel yang berisi alamat memori dari variabel lain. Pointer memungkinkan akses dan manipulasi data pada alamat memori tertentu.
+- Penggunaan & Simbol (&) : Digunakan untuk mendapatkan alamat memori suatu variabel. Contoh: &a akan memberikan alamat memori dari variabel a.
+- Pembuatan Pointer : Pointer dibuat dengan menambahkan simbol * di depan namanya dan diisi dengan alamat memori yang akan digunakan sebagai referensi.
+Contoh Pembuatan dan Penggunaan Pointer :
+int a = 10;
+int *pointer1 = &a;
+
+**B. Mengakses Data dengan Pointer**
+- Alamat Memori Pointer : Alamat memori pointer adalah tempat di mana pointer disimpan.
+- Alamat Referensi : Alamat memori yang menjadi referensi dari pointer.
+- Mengakses Data dengan Pointer : Menggunakan simbol * di depan nama pointer. Contoh: *pointer1 mengakses data pada alamat memori yang diacu oleh pointer1.
+- Perubahan Data dengan Pointer: Perubahan data pada alamat memori tertentu akan mempengaruhi nilai variabel yang direferensikan oleh pointer.
+- Kapan Menggunakan Pointer : Penggunaan pointer adalah opsional, tapi dapat lebih optimal pada kondisi tertentu, terutama dalam mengelola struktur data kompleks dan hemat memori.
+
+**C. Pointer untuk Pass by Reference**
+- Pass by Value vs. Pass by Reference: Pass by value mengirimkan nilai variabel, sementara pass by reference mengirimkan alamat memori dari variabel.
+- Perubahan Nilai dengan Pointer: Menggunakan pointer untuk melakukan pass by reference agar perubahan nilai variabel bersifat global.
+Contoh Program :
+void add_score(int *score) {
+   *score += 5;
+}
+
+**D.Pointer untuk Mengakses Array**
+- Pointer dan Array : Pointer dapat digunakan untuk mengakses elemen-elemen array.
+Contoh Program:
+int numbers[] = {1, 2, 3, 4, 5};
+int *ptr_current = numbers;  // ptr_current mereferensi pada elemen pertama array
+- Penggunaan Pointer untuk Traverse Array : Pointer dapat digunakan untuk mengakses semua elemen array tanpa menggunakan indeks.
+Contoh Program :
+for(int i = 0; i < 5; i++) {
+   printf("%d ", *ptr_current);
+   ptr_current++;  // Pindah ke elemen array selanjutnya
+}<br><br>
+
 [Jobsheet 10 - Enumerasi dan Structure](https://github.com/bngaa/PRATIKUM-ALGORITMA-PEMROGRAMAN/tree/main/Jobsheet%2010%20-%20Enumerasi%20%20Structure)<br>
+**A. Pengertian Enumerasi:**
+Enum atau Enumeration adalah tipe data yang berisi sekumpulan konstanta. Enum termasuk dalam tipe data bentukan yang dapat dibuat oleh pengguna. 
+Cara membuat tipe data boolean menggunakan enum :
+#include <stdio.h>
+enum Boolean {false, true};
+int main() {
+    enum Boolean is_true = true;
+    printf("Is it true? %d\n", is_true);
+    return 0;
+}. 
+Enum memberikan efisiensi dan fleksibilitas dalam penggunaan memori karena variabel enum hanya mengambil satu nilai dari konstanta yang ada.
+
+**B. Structure (Struct) :**
+Struct adalah kumpulan dari beberapa variabel dengan beragam tipe data yang dibungkus dalam satu variabel. Struct berguna untuk menyusun data dengan lebih terstruktur.
+- Menggunakan Typedef pada Struct :
+Penggunaan typedef untuk mendefinisikan tipe data baru dari struct.
+- Struct Bersarang :
+Struct dapat dibuat bersarang, yaitu ada struct di dalam struct.
+- Passing Struct ke dalam Fungsi :
+Struct dapat digunakan sebagai parameter fungsi.<br><br>
+
 [Jobsheet 11 - File Handling in C](https://github.com/bngaa/PRATIKUM-ALGORITMA-PEMROGRAMAN/tree/main/Jobsheet%2011%20-%20FIle%20Handling%20in%20C)<br>
+**A. Pengantar :**
+Ketika program ditutup, data dalam variabel akan hilang. Untuk menyimpan data, kita membutuhkan media penyimpanan lain seperti File. File memungkinkan kita tetap memiliki data meskipun program sudah ditutup. Kita akan belajar cara membaca dan menulis data ke file menggunakan bahasa C.
+
+**B. Membaca File dengan C :**
+Sebelum membaca file, kita perlu tahu bahwa ada dua jenis file : teks dan binary. <br>
+File teks mudah dibaca dan ditulis, sedangkan file binary sulit dibaca. Fungsi fopen() digunakan untuk membuka file dengan berbagai mode (r, rb, w, wb, a, ab, r+, rb+, w+, wb+, a+, ab+). Dengan menggunakan perulangan, kita bisa membaca semua baris dalam file.
+
+**C. Menulis dalam File dengan C :**
+Untuk menulis dalam file, kita menggunakan fungsi fputs().
+
+**D. Menulis dan Menampilkan Isi File :**
+Untuk menulis dan sekaligus menampilkan isi file, kita perlu membuka ulang file dengan mode yang berbeda.
 
 
